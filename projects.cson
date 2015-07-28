@@ -1,0 +1,12 @@
+MCG:
+  title: "MCG"
+  paths: [
+    "D:\\Projects\\MCC\\MCG Rebuild\\dev\\static-website"
+  ]
+MCC:
+  title: "MCC"
+  paths: [
+    "D:\\Projects\\MCC\\MCC Rebuild\\dev\\static-website"
+    "D:\\Projects\\MCC\\MCC Rebuild\\Website"
+    "D:\\Projects\\MCC\\MCC Rebuild\\dev\\MCC.Website"
+  ]

@@ -1,0 +1,42 @@
+"*":
+  "exception-reporting":
+    userId: "c4533645-65a9-f38c-0a1f-16534c73518e"
+  welcome:
+    showOnStartup: false
+  linter:
+    showErrorPanel: false
+  core:
+    themes: [
+      "atom-material-ui"
+      "seti-syntax"
+    ]
+    autoHideMenuBar: true
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "symbols-view"
+    ]
+  editor:
+    invisibles: {}
+    showInvisibles: true
+    showIndentGuide: true
+    fontSize: 13
+  "atom-ctags": {}
+  "linter-scss-lint": {}
+  tabs:
+    usePreviewTabs: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "terminal-panel": {}
+  "atom-terminal":
+    app: "D:\\programs\\cmder\\cmder.exe"
+    surpressDirectoryArgument: false
+  "tool-bar":
+    position: "Left"
+  "atom-material-ui":
+    slimScrollbar: true
+    rippleAccentColor: true
+    compactTreeView: true
+    tabSize: "Small"
+    themeSyle: "Lighter"
+  "atom-beautify":
+    _analyticsUserId: "fdff187f-9cb3-4666-a3fb-ebd6ec3044b7"
