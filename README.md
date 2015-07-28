@@ -9,7 +9,7 @@ Keep Atom consistent on all my machines.
 ## Installation
 
 ```
-apm install --package-file packages.txt
+apm install --packages-file packages.txt
 ```
 
 ## Contributors
