@@ -16,6 +16,10 @@
 // style the background and foreground colors on the atom-text-editor-element
 // itself
 atom-text-editor {
+    .indent-guide {
+        color: rgba(255, 255, 255, 0.3);
+        box-shadow: inset 1px 0px rgba(255,255,255,0.04);
+    }
 
   // color: white;
   // background-color: hsl(180, 24%, 12%);
@@ -29,8 +33,4 @@ atom-text-editor::shadow .cursor {
 }
 atom-text-editor::shadow .gutter .line-number {
   // background: #f00;
-}
-atom-text-editor::shadow .indent-guide {
-  color: rgba(255, 255, 255, 0.08);
-  box-shadow: inset 1px 0px rgba(255,255,255,0.04);
 }

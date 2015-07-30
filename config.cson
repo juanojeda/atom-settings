@@ -23,7 +23,7 @@
     showIndentGuide: true
     softWrap: true
     softWrapAtPreferredLineLength: true
-    fontSize: 17
+    fontSize: 14
   pigments:
     groupPaletteColors: "by file"
     markerType: "dot"
