@@ -1,0 +1,11 @@
+'jetstar.mobile.frontend':
+  'title': 'jetstar.mobile.frontend'
+  'paths': [
+    'D:\\dev\\jetstar.mobile.frontend'
+  ]
+
+'jazzbot':
+  'title': 'Jazzbot'
+  'paths': [
+    'D:\\dev\\jazzbot'
+  ]
