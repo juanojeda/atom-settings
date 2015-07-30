@@ -1,6 +1,9 @@
 storage
 compile-cache
 dev
+packages
+local-history
+.apm
 .npm
 .node-gyp
 packages/
