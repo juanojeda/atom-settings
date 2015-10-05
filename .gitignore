@@ -5,3 +5,4 @@ compile-cache/
 .node-gyp/
 .apm/
 .DS_Store
+npm-debug.log
