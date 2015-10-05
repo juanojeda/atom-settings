@@ -34,3 +34,6 @@
 '.platform-win32 atom-text-editor':
     'alt-f2': 'bookmarks:toggle-bookmark'
     'ctrl-shift-f2': 'bookmarks:view-all'
+    
+'atom-text-editor:not(mini).autocomplete-active':
+    'enter': 'autocomplete-plus:confirm'

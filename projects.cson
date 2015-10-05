@@ -1,11 +1,17 @@
-'jetstar.mobile.frontend':
-  'title': 'jetstar.mobile.frontend'
+'jetstar':
+  'title': 'jetstar'
   'paths': [
-    'D:\\dev\\jetstar.mobile.frontend'
+    '/Users/juanojeda/dev/jetstar/'
   ]
 
 'jazzbot':
   'title': 'Jazzbot'
   'paths': [
-    'D:\\dev\\jazzbot'
+    '/Users/juanojeda/dev/jazzbot/'
+  ]
+
+'recipes':
+  'title': 'Recipes'
+  'paths': [
+      '/Users/juanojeda/dev/recipes'
   ]

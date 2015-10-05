@@ -23,7 +23,7 @@
     showIndentGuide: true
     softWrap: true
     softWrapAtPreferredLineLength: true
-    fontSize: 14
+    fontSize: 15
   pigments:
     groupPaletteColors: "by file"
     markerType: "dot"
@@ -40,3 +40,6 @@
   "linter-less":
     ignoreUndefinedGlobalVariables: true
   "linter-htmlhint": {}
+  tasks:
+    baseMarker: "[ ]"
+    dateFormat: "DD-MM-YYYY"
