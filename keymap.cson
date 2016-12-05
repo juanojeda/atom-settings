@@ -27,13 +27,43 @@
     'ctrl-,': 'application:show-settings'
     'alt-left': 'pane:move-item-left'
     'alt-right': 'pane:move-item-right'
+    'ctrl-shift-t': 'pane:reopen-closed-item'
 
 'atom-text-editor':
  	'ctrl-alt-l': 'editor:auto-indent'
+  'ctrl-e': 'emmet:expand-abbreviation'
+  'ctrl-alt-e': 'find-and-replace:use-selection-as-find-pattern'
+
+'atom-text-editor:not(mini)':
+  'alt-ctrl-shift-up': 'expand-region:expand'
+  'alt-ctrl-shift-down': 'expand-region:shrink'
+
 
 '.platform-win32 atom-text-editor':
     'alt-f2': 'bookmarks:toggle-bookmark'
     'ctrl-shift-f2': 'bookmarks:view-all'
-    
+    'ctrl-shift-v': 'clipboard-plus:toggle'
+    'ctrl-shift-up': 'editor:add-selection-above'
+    'ctrl-shift-down': 'editor:add-selection-below'
+    'ctrl-alt-up': 'emmet:increment-number-by-1'
+    'ctrl-alt-down': 'emmet:decrement-number-by-1'
+
 'atom-text-editor:not(mini).autocomplete-active':
+    'tab'  : 'snippets:expand'
     'enter': 'autocomplete-plus:confirm'
+
+'.platform-win32 atom-workspace atom-text-editor:not(.mini)[data-grammar~="todo"]':
+    'ctrl-shift-s': 'core:save-as'
+    'ctrl-alt-s': 'tasks:set-timestamp'
+
+'.platform-win32, .platform-linux':
+    'ctrl-f': 'find-and-replace:show'
+    'ctrl-shift-f': 'project-find:show'
+    'ctrl-d': 'find-and-replace:select-next'
+
+# emmet
+#########
+'atom-text-editor[data-grammar~="html"]:not([mini])':
+    'tab': 'emmet:expand-abbreviation-with-tab'
+'atom-text-editor[data-grammar~="jsx"]:not([mini])':
+    'tab': 'emmet:expand-abbreviation-with-tab'

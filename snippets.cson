@@ -16,6 +16,7 @@
 # This file uses CoffeeScript Object Notation (CSON).
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
+
 '.source.coffee':
   'Keymaps':
     'prefix': 'keymap'
@@ -25,11 +26,14 @@
     """
 
 '.source.js':
+  'Console info':
+    'prefix': 'inf'
+    'body': 'console.info($1);'
   'Tracer':
     'prefix': 'trace'
     'body': 'console.trace(\'$1\')'
-  'Console Log':
-    'prefix': 'heyjuan'
+  'Hey Juan':
+    'prefix': 'hj'
     'body': """
         // TODO: remove this
         console.log("%c %s %s", "color: #c0ffee; background: #323266", "Hey Juan! ", "$1!", $1);
@@ -41,15 +45,9 @@
             $1
         };)
     """
-  'Console info':
-    'prefix': 'inf'
-    'body': 'console.info($1);'
 
 '.text.html':
   'TODO':
-    'prefix': 'todo'
-    'body': '<!-- TODO: $1 -->'
-  'knockout snip':
     'prefix': 'ko:'
     'body': """
         <!-- ko  $1: -->

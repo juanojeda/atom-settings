@@ -1,45 +1,78 @@
 "*":
-  "exception-reporting":
-    userId: "b7d83f26-b8e8-f50f-9950-03cb4d68b3bb"
-  welcome:
-    showOnStartup: false
-  "one-dark-ui":
-    layoutMode: "Spacious"
+  "atom-beautify":
+    _analyticsUserId: "315a1c5e-43df-4c2a-9b75-cc7744d0654d"
+  "atom-ctags":
+    cmd: "D:\\dev\\devtools\\ctags58\\ctags"
+    cmdArgs: "--exclude=.git --exclude=node_modules --exclude=*.html --exclude=content "
   core:
+    destroyEmptyPanes: false
     disabledPackages: [
       "terminal-panel"
       "symbols-view"
+      "linter-scss-lint"
+      "linter-htmlhint"
     ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "node_modules"
+    ]
+    packagesWithKeymapsDisabled: [
+      "find-and-replace"
+    ]
+    telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
       "monokai"
     ]
-    destroyEmptyPanes: false
+  docblockr: {}
   editor:
+    backUpBeforeSaving: true
+    fontFamily: "Consolas"
+    fontSize: 17
     invisibles: {}
-    tabLength: 4
+    lineHeight: 1.4
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-_…"
     scrollPastEnd: true
-    showInvisibles: true
     showIndentGuide: true
+    showInvisibles: true
     softWrap: true
-    softWrapAtPreferredLineLength: true
-    fontSize: 15
+  emmet: {}
+  "exception-reporting":
+    userId: "b7d83f26-b8e8-f50f-9950-03cb4d68b3bb"
+  linter: {}
+  "linter-htmlhint": {}
+  "linter-jscs":
+    onlyConfig: true
+    preset: "google"
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  "linter-less":
+    ignoreUndefinedGlobalVariables: true
+  "linter-scss-lint":
+    executablePath: "c:/tools/ruby23/bin/scss-lint"
+  minimap: {}
+  "one-dark-ui":
+    layoutMode: "Spacious"
   pigments:
     groupPaletteColors: "by file"
     markerType: "dot"
-  "terminal-panel":
-    logConsole: true
-    shell: "powershell.exe"
-  emmet: {}
-  docblockr: {}
-  "atom-beautify":
-    _analyticsUserId: "315a1c5e-43df-4c2a-9b75-cc7744d0654d"
-  "atom-ctags":
-    cmdArgs: "--/exclude=node_modules "
-  linter: {}
-  "linter-less":
-    ignoreUndefinedGlobalVariables: true
-  "linter-htmlhint": {}
+  "symbol-gen":
+    tagFile: "tags"
   tasks:
     baseMarker: "[ ]"
-    dateFormat: "DD-MM-YYYY"
+    dateFormat: "ddd DD MMM YYYY"
+  "terminal-panel":
+    logConsole: true
+    shell: "bash.exe"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+".handlebars.html.text":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-_…"

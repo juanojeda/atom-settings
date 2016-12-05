@@ -1,25 +1,20 @@
-jetstar:
-  title: "jetstar"
-  paths: [
-    "D:\\dev\\jetstar.mobile.frontend"
-    "/Users/juanojeda/dev/jetstar/"
+'jetstar':
+  'title': 'jetstar'
+  'paths': [
+    'D:/dev/jetstar-site/',
+    'D:/dev/jetstar-api/'
   ]
-jazzbot:
-  title: "Jazzbot"
-  paths: [
-    "D:\\dev\\jazzbot"
-    "/Users/juanojeda/dev/jazzbot/"
+
+'jazzbot':
+  'title': 'Jazzbot'
+  'paths': [
+    'D:/dev/jazzbot/'
   ]
-recipes:
-  title: "Recipes"
-  paths: [
-    "/Users/juanojeda/dev/recipes"
+
+
+'dulux':
+  'title': 'Dulux'
+  'paths': [
+    'D:/dev/dulux/generic-website-aem/ui/',
+    'D:/dev/dulux/generic-website-aem/content/src/main/content/jcr_root/'
   ]
-stripetime:
-  title: "stripetime"
-  paths: [
-    "/Users/juanojeda/dev/stripetime"
-  ]
-  settings:
-      '*':
-        'editor.tabLength': 2
